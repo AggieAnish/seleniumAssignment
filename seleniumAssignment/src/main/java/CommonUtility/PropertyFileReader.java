@@ -50,7 +50,6 @@ public class PropertyFileReader {
 
 		String timeout= properties.getProperty("timeout");
 
-
 		if(timeout != null)
 
 		return Long.parseLong(timeout);
